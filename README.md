@@ -1,1 +1,3 @@
-Run to reproduce typescript error: `npm run tsc`
+Run to reproduce typescript error:
+1. `npm install`
+2. `npm run tsc`
