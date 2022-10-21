@@ -1,5 +1,5 @@
-import './App.css';
-import React from 'react';
+import "./App.css";
+import "./i18n";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>{t('translation.key')}</div>
+      <div>{t("key1.key2")}</div>
     </div>
   );
 }
